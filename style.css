@@ -1,0 +1,53 @@
+#nameDiv, #groupDiv {
+	display: inline-block;
+	align: center;
+	padding: 20px;
+}
+
+#namesList, #groupList {
+	border: solid black 1px;
+	display: table;
+	margin: 20px auto;
+	padding: 0px 20px;
+	/*height: 300px;
+	-webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+	column-gap: 20px;*/
+	font-size: 18px;
+}
+
+#namesList > li {
+	padding-left: 10px;
+	font-size: 16px;
+	/*display: inline-block;*/
+}
+
+#groupSize {
+	width: 30px;
+}
+
+#names {
+	width: 125px;
+}
+
+span {
+	font-size: 18px;
+}
+
+#submitNames, #getGroups {
+	font-size: 18px;
+	background-color: tan;
+}
+
+#names, #groupSize {
+	font-size: 16px;
+}
+
+#area {
+	border: black solid 5px;
+	align: center;
+	background-color: beige;
+	width: 50%;
+	margin: 0 auto;
+}
